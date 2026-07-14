@@ -1,0 +1,9 @@
+# ═══════════════════════════════════════════════════════════════
+# SERVER/REQUIREMENTS.TXT — Bibliotecas Python necessárias
+# ═══════════════════════════════════════════════════════════════
+
+groq
+flask
+flask-cors
+python-dotenv
+gunicorn

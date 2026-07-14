@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alma — Assistente de Bem-estar | SENAC-RS 2026</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="app">
+  <div id="header">
+    <div id="avatar">💜</div>
+    <div>
+      <div id="header-name">Alma — Assistente de bem-estar</div>
+      <div id="header-status"><span class="dot"></span> Online agora</div>
+    </div>
+    <div id="senac-badge">SENAC-RS 2026</div>
+  </div>
+
+  <div id="crisis-banner">
+    🛡️ Em crise? Ligue agora: <strong>&nbsp;CVV 188</strong> &nbsp;(24h, gratuito)
+  </div>
+
+  <div id="messages"></div>
+
+  <div id="input-area">
+    <textarea id="user-input" placeholder="Escreva como você está se sentindo..." rows="1"></textarea>
+    <button id="send-btn" onclick="sendMessage()" title="Enviar (Enter)">➤</button>
+  </div>
+
+  <div id="footer">
+    Alma não substitui acompanhamento profissional de saúde mental.
+    &nbsp;|&nbsp; Projeto SENAC-RS 2026
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
